@@ -12,6 +12,6 @@
     "tests"
   ],
   "dependencies": {
-    "ember": "billysbilling/bower-ember#master"
+    "ember": "billysbilling/bower-ember#~1.3.0"
   }
 }

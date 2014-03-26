@@ -6,7 +6,7 @@ module.exports = Em.Mixin.create({
 
     didInsertElement: function() {
         this._super();
-        var layer = this.get('targetView').$().parents('.layer'),
+        var layer = this.get('targetView').$().closest('.layer'),
             zIndex = 1000;
         if (layer.length > 0) {
             zIndex = 10 + (1*layer.css('z-index'));

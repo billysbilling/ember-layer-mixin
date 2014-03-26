@@ -1,6 +1,6 @@
 {
   "name": "ember-layer-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/billysbilling/ember-layer-mixin",
   "main": "src/js/layer-mixin.js",
   "license": "MIT",
